@@ -1,0 +1,296 @@
+1408083536TS---><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广东省中山市板芙镇人民政府-山水板芙</title>
+<link href="/public/index//css/css.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="/public/index//js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/public/index//js/jquery.jslides.js"></script>
+<script type="text/javascript" src="/public/index//js/jquery.landscape_flash.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+<div class="top_bg"></div>
+<div class="warper">
+  <div class="top">
+    <div class="top_left">2014年08月15&nbsp;&nbsp;星期五&nbsp;&nbsp;</div>
+    <div class="top_right"> <span><input type="text" placeholder='请输入关键词' id="fox_ie8" onKeyDown="textdown(event)" onKeyUp="textup()" value="请输入关键词" onfocus="if(value=='请输入关键词'){value=''}" onblur="if (value ==''){value='请输入关键词'}" /><a href=""></a></span>
+      <ul>
+        <li><a href="">RSS订阅</a>|</li>
+        <li><a href="">设为主页</a>|</li>
+        <li><a href="">加入收藏</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--top end-->
+  <div class="head">
+    <div class="logo"></div>
+    <div class="head_banner">
+      <div id="full-screen-slider">
+        <ul id="slides">
+          <li style="background:url('/public/index//images/head_banner_1.png') no-repeat right top"><a href=""></a></li>
+          <li style="background:url('/public/index//images/head_banner_2.png') no-repeat right top"><a href=""></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--head_banner end--> 
+  </div>
+  <!--head end-->
+  <div class="nav">
+     <ul>
+      <li class="nav_li"><a href="/index.php"><span>首页</span><i>HOME</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/open_goverment/"><span>政务公开</span><i>OPEN&nbsp;GOVERMENT</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/online_services/"><span>网上服务</span><i>ONLINE&nbsp;SERVICES</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/interaction/"><span>交流互动</span><i>INTERACTION</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/landscape/"><span>山水板芙</span><i>LANDSCAPE</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/topic_page/"><span>热点专题</span><i>HOT&nbsp;TOPIC</i></a></li>
+    </ul>
+  </div>
+  <!--nav end-->
+  <div class="clear"></div>
+  <div id="landscape_flash">
+    <div id="landscapePic"> <a href="" target="_blank" style="visibility: visible; display: block;">
+      <img class="Picture" src="/public/index//picture/landscape_flash_pic1.jpg" style="width: 600px; height: 320px;"/>
+      </a> <a href="" target="_blank" style="visibility: hidden; display: none;" >
+      <img class="Picture" src="/public/index//picture/landscape_flash_pic2.jpg" style="width: 600px; height: 320px;"/>
+      </a> <a href="" target="_blank" style="visibility: hidden; display: none;" >
+      <img class="Picture" src="/public/index//picture/landscape_flash_pic3.jpg" style="width: 600px; height: 320px;"/>
+      </a> <a href="" target="_blank" style="visibility: hidden; display: none;" >
+      <img class="Picture" src="/public/index//picture/landscape_flash_pic4.jpg" style="width: 600px; height: 320px;"/>
+      </a> <a href="" target="_blank" style="visibility: hidden; display: none;" >
+      <img class="Picture" src="/public/index//picture/landscape_flash_pic3.jpg" style="width: 600px; height: 320px;"/>
+      </a>
+      <div class="Nav"> <span class="Normal">5</span> <span class="Normal">4</span> <span class="Normal">3</span> <span class="Normal">2</span> <span class="Cur">1</span> </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+	  $('#landscape_flash').liteNav(2000);
+    </script> 
+  <!--landscape_flash end-->
+  <div class="banfu_survey">
+    <div class="tit">
+      <img src="/public/index//images/banfu_survey_tit.png" />
+    </div>
+    <div class="con">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;板芙地处中山市西南部，东傍五桂山，西临西江，南连珠海经济特区，北枕中山市中心城区，毗邻港澳，水陆交通方便。岐江河将全镇分成东西两片，河东片依山傍水，交通便利板芙地板芙地处中山市西南部，东傍五桂山，西临西江，南连珠海经济特....<span><a href="">[查看全文]</a></span></div>
+    <div class="ect_map"> 
+      <!--百度地图容器-->
+      <div style="width:266px;height:150px;" id="dituContent"></div>
+      <script type="text/javascript">
+            //创建和初始化地图函数：
+            function initMap(){
+                createMap();//创建地图
+                setMapEvent();//设置地图事件
+                addMapControl();//向地图添加控件
+            }
+            //创建地图函数：
+            function createMap(){
+                var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+                var point = new BMap.Point(113.328872,22.422652);//定义一个中心点坐标
+                map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+                window.map = map;//将map变量存储在全局
+            }
+            //地图事件设置函数：
+            function setMapEvent(){
+                map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+                map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+                map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+                map.enableKeyboard();//启用键盘上下左右键移动地图
+            }
+            //地图控件添加函数：
+            function addMapControl(){
+                //向地图中添加缩放控件
+            var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+            map.addControl(ctrl_nav);
+                //向地图中添加缩略图控件
+            var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:0});
+            map.addControl(ctrl_ove);
+                }
+            initMap();//创建和初始化地图
+        </script> 
+    </div>
+    <!--ect_map end-->
+    <div class="banfu_survey_video">
+      <img src="/public/index//picture/banfu_survey_video.jpg" />
+    </div>
+    <!--banfu_survey_video end--> 
+  </div>
+  <!--banfu_survey end-->
+  <div class="landscape_list">
+    <div class="tit">
+      <img src="/public/index//images/landscape_list_tit1.png" />
+      <a href="">更多&gt;&gt;</a> </div>
+    <div class="list">
+      <ul>
+        <li style="margin-left:0px;"><a href="">
+          <img src="/public/index//picture/landscape_list_pic1.jpg" />
+          <h2>历史沿革</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic2.jpg" />
+          <h2>社区居委</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic3.jpg" />
+          <h2>社会发展</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic4.jpg" />
+          <h2>人文风俗</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。</a></li>
+      </ul>
+    </div>
+    <!--走进板芙 end-->
+    <div class="tit">
+      <img src="/public/index//images/landscape_list_tit2.png" />
+      <a href="">更多&gt;&gt;</a> </div>
+    <div class="list">
+      <ul>
+        <li style="margin-left:0px;"><a href="">
+          <img src="/public/index//picture/landscape_list_pic1.jpg" />
+          <h2>历史沿革</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic2.jpg" />
+          <h2>社区居委</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic3.jpg" />
+          <h2>社会发展</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic4.jpg" />
+          <h2>人文风俗</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。</a></li>
+      </ul>
+    </div>
+    <!--宜居板芙 end-->
+    <div class="tit">
+      <img src="/public/index//images/landscape_list_tit3.png" />
+      <a href="">更多&gt;&gt;</a> </div>
+    <div class="list">
+      <ul>
+        <li style="margin-left:0px;"><a href="">
+          <img src="/public/index//picture/landscape_list_pic1.jpg" />
+          <h2>历史沿革</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic2.jpg" />
+          <h2>社区居委</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic3.jpg" />
+          <h2>社会发展</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic4.jpg" />
+          <h2>人文风俗</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。</a></li>
+      </ul>
+    </div>
+    <!--投资板芙 end-->
+    <div class="tit">
+      <img src="/public/index//images/landscape_list_tit4.png" />
+      <a href="">更多&gt;&gt;</a> </div>
+    <div class="list">
+      <ul>
+        <li style="margin-left:0px;"><a href="">
+          <img src="/public/index//picture/landscape_list_pic1.jpg" />
+          <h2>历史沿革</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic2.jpg" />
+          <h2>社区居委</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic3.jpg" />
+          <h2>社会发展</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。岐江河将全镇分成</a></li>
+        <li><a href="">
+          <img src="/public/index//picture/landscape_list_pic4.jpg" />
+          <h2>人文风俗</h2>
+          板芙地处中山市西南部，东傍五桂山，西临南连珠海经济特区，北枕中山市中心城区毗邻港澳，水陆交通方便。</a></li>
+      </ul>
+    </div>
+    <!--旅游板芙 end--> 
+  </div>
+</div>
+<!--warper end-->
+<div class="foot_bg">
+  <div class="foot">
+    <div class="foot_link">
+      <ul>
+        <li style="margin-left:0;"><a href="">
+          <img src="/public/index//images/foot_link_pic1.gif" />
+          </a></li>
+        <li><a href="">
+          <img src="/public/index//images/foot_link_pic2.gif" />
+          </a></li>
+        <li><a href="">
+          <img src="/public/index//images/foot_link_pic3.gif" />
+          </a></li>
+        <li><a href="">
+          <img src="/public/index//images/foot_link_pic4.gif" />
+          </a></li>
+        <li><a href="">
+          <img src="/public/index//images/foot_link_pic5.gif" />
+          </a></li>
+        <li><a href="">
+          <img src="/public/index//images/foot_link_pic6.gif" />
+          </a></li>
+      </ul>
+    </div>
+    <div class="foot_link_select">
+      <select name="">
+        <option value="" selected="selected">国家部委网站</option>
+        <option value="">对象1</option>
+        <option value="">对象2</option>
+      </select>
+      <select name="">
+        <option value="" selected="selected">省级政府网站</option>
+        <option value="">对象1</option>
+        <option value="">对象2</option>
+      </select>
+      <select name="">
+        <option value="" selected="selected">省内地市政府网站</option>
+        <option value="">对象1</option>
+        <option value="">对象2</option>
+      </select>
+      <select name="">
+        <option value="" selected="selected">市政府机构</option>
+        <option value="">对象1</option>
+        <option value="">对象2</option>
+      </select>
+      <select name="">
+        <option value="" selected="selected">中山各镇区</option>
+        <option value="">对象1</option>
+        <option value="">对象2</option>
+      </select>
+      <select name="">
+        <option value="" selected="selected">新闻媒体网站</option>
+        <option value="">对象1</option>
+        <option value="">对象2</option>
+      </select>
+    </div>
+    <div class="foot_info">
+      <div class="foot_nav"> <a href="">网站地图</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">联系方式</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">免责声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">使用帮助</a> </div>
+      广东省中山市板芙镇人民政府&nbsp;&nbsp;&copy;2014 粤ICP备09060159号-1&nbsp;&nbsp;联系电话：0760-86502999&nbsp;&nbsp;传真：0760－86501168&nbsp;&nbsp;邮编：528459&nbsp;&nbsp;电子邮箱：info@banfu.gov.cn </div>
+  </div>
+</div>
+</body>
+</html>

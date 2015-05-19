@@ -1,0 +1,16 @@
+#top{background:url(../img/bamboo/top_bg.jpg) -101px 0;color:#003300;}
+#top .top_left{background:url(../img/bamboo/top_left.jpg) no-repeat left top;}
+#top a{color:#003300;}
+#top a:hover{color:#236314;}
+ 
+#tab .tab_line{background:url(../img/bamboo/tab.gif) left top;}
+#tab span.on{color:#C6E7A6;border:1px solid #173E0F;background:url(../img/bamboo/tab.gif) 0 -74px;}
+#tab span.off{color:#345E28;border:1px solid #428723;background:url(../img/bamboo/tab.gif) 0 -4px;}
+#tab span.hover{color:#345E28;border:1px solid #2D6D11;background:url(../img/bamboo/tab.gif) 0 -39px;}
+
+#left{background:#68BE5B;border-right:1px solid #D7E6DB;}
+#left .left_top{background:url(../img/bamboo/left_top.jpg) center top no-repeat;}
+#left .menu a{color:#222;}
+#left .menu a:hover{background:#ADD696;background:none repeat scroll 0 0 rgba(120, 183, 101, 0.5);}
+
+#content iframe{background:#F0FBED;}

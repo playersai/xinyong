@@ -1,0 +1,16 @@
+#top .top_right{background:url(../img/sky/top_right.jpg) no-repeat right;color:#0662A2;}
+#top a{color:#0662A2;}
+#top a:hover{color:#519ED6;}
+
+#tab .tab_line{background:url(../img/sky/tab.gif) left top;}
+#tab span{border:1px solid #D7CFC5;}
+#tab span.on{color:#FFF;border:1px solid #2A73A8;background:url(../img/sky/tab.gif) 0 bottom;}
+#tab span.off{color:#6F879B;border:1px solid #B6C7D3;background:url(../img/sky/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #A1B4C2;background:url(../img/sky/tab.gif) 0 -39px;}
+
+#left{background:#EAF0F5;}
+#left .menu ul.main{border-top:1px solid #FFF;border-bottom:1px solid #D2DEEC;}
+#left .menu a{color:#205484;border-top:1px solid #D2DEEC;border-bottom:1px solid #FFF;}
+#left .menu a:hover{background:#D4E2EE;}
+
+#content iframe{background:#EAF0F5;}

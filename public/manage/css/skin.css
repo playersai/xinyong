@@ -1,0 +1,44 @@
+*{margin:0;padding:0;outline:none;}
+html{_overflow-y:scroll;}
+body{font-size:12px;font-family:arial;background:#FFF;}
+li{list-style:none;}
+.cl{clear:both;}
+
+.skin_title{margin:8px 10px 0 10px;padding-left:8px;font-size:14px;font-weight:bold;border-bottom:1px solid #CCC;line-height:32px;color:#222;clear:both;}
+.skin_title font{color:#F00;font-size:12px;}
+.all_skin,.dialog_skin{margin:0px 10px 5px 10px;border-top:1px solid #EEE;overflow:hidden;_height:90px;overflow:visible;}
+.all_skin li,.dialog_skin li{width:140px;float:left;margin:10px 0;}
+.all_skin li b,.dialog_skin li b{display:block;width:90px;height:90px;margin:0 auto;}
+.all_skin li b{background:url(../img/skin_all.jpg);}
+.dialog_skin li b{background:url(../img/skin_dialog.jpg);}
+.all_skin li font,.dialog_skin li font{display:block;line-height:26px;text-align:center;font-weight:bold;font-size:12px;}
+.all_skin li a,.dialog_skin li a{display:block;padding:12px 15px 6px 15px;text-decoration:none;color:#555;}
+.all_skin li a:hover,.dialog_skin li a:hover{border:2px solid #CCC;padding:10px 13px 4px 13px;}
+.all_skin li b.green{background-position:0 0;}
+.all_skin li b.beauty{background-position:-90px 0;}
+.all_skin li b.boat{background-position:-180px 0;}
+.all_skin li b.sprite{background-position:-270px 0;}
+.all_skin li b.wood{background-position:-360px 0;}
+.all_skin li b.bamboo{background-position:-450px 0;}
+.all_skin li b.sky{background-position:-540px 0;}
+.all_skin li b.sakura{background-position:-630px 0;}
+.all_skin li b.diary{background-position:-720px 0;}
+.all_skin li b.crane{background-position:-810px 0;}
+.all_skin li b.metro{background-position:0 -90px;}
+.all_skin li b.dragon_boat{background-position:-90px -90px;}
+.all_skin li b.moon{background-position:-180px -90px;}
+.all_skin li b.car{background-position:-270px -90px;}
+.all_skin li b.peach{background-position:-360px -90px;}
+.all_skin li b.dusk{background-position:-450px -90px;}
+.all_skin li b.dandelion{background-position:-540px -90px;}
+.all_skin li b.stamp{background-position:-630px -90px;}
+.dialog_skin li b.blue{background-position:0 0;}
+.dialog_skin li b.green{background-position:-90px 0;}
+.dialog_skin li b.black{background-position:-180px 0;}
+.dialog_skin li b.aero{background-position:-270px 0;}
+.dialog_skin li b.chrome{background-position:-360px 0;}
+.dialog_skin li b.opera{background-position:0 -90px}
+.dialog_skin li b.twitter{background-position:-90px -90px;}
+.dialog_skin li b.idialog{background-position:-180px -90px;}
+.dialog_skin li b.default{background-position:-270px -90px;}
+.dialog_skin li b.simple{background-position:-360px -90px;}

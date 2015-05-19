@@ -1,0 +1,17 @@
+body{background:url(../img/stamp/bg.png);}
+#top .top_right{background:url(../img/stamp/top_right.jpg) no-repeat right;color:#754C24;}
+#top a{color:#754C24;}
+#top a:hover{color:#333;}
+
+#tab .tab_line{background:url(../img/stamp/tab_line.gif) left bottom;}
+#tab span{border:1px solid #754C24;}
+#tab span.on{color:#754C24;background:url(../img/stamp/tab.jpg);}
+#tab span.off{color:#754C24;background:url(../img/stamp/tab.jpg) 0 -35px;z-index:13;}
+#tab span.hover{color:#333;}
+
+#left{background:url(../img/stamp/left.png) right 0 repeat-y;border:none;width:200px;}
+#left .left_bottom{background:url(../img/stamp/left_bottom.jpg) -2px bottom no-repeat;}
+#left .menu a{color:#754C24;}
+#left .menu a:hover{background:url(../img/stamp/menu_over.png) -6px bottom no-repeat;color:#FFF;}
+
+#content iframe{background:#F6F6F6;}

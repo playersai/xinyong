@@ -1,0 +1,99 @@
+﻿/** Login style **/
+#login{background:url(../image/bg.jpg) repeat-x left top; }
+
+#login #header{display:none;}
+
+#login #content{width:350px; margin:246px 740px; margin:247px 740px\9; }
+
+#login #content table{margin:0;padding:0; width:100%;}
+
+#login #content table td{padding-left:45px; vertical-align:middle; height:53px; }
+#login #content table td select{font-size:10pt;width:136px;}
+.inputbox{ width:245px; height:20px; line-height:20px; font-size:12pt; vertical-align:middle; border:none; color: #666; }
+.checkbox{ width:110px; height:25px; line-height:25px; font-size:12pt; vertical-align:middle; margin-right:18px;margin-left:4px; border:none; }
+
+/*#login #content table td #imgCheck {vertical-align:middle; width:97px; height:30px;}*/
+/*#login #content table td a:link,#login #content table td a:visited{color:#000;line-height:20px}
+#login #content table td a:hover{color:red;line-height:20px}*/
+#login #content table tfoot td{padding-left:4px;text-align:left;height:55px;vertical-align:middle;}
+.btnLogin {width:250px;height:40px; background:url(../image/logo_button.png) no-repeat left top; border:none; outline: none; blr:expression(this.onFocus=this.blur()); }
+
+#login #footer{display:none;}
+/*  */
+#MyControl .controlbox-div{
+	font-family: 宋体;
+	font-size:8pt;
+	padding: 0;
+	margin: 0;
+	background: #d0e5f5;
+	color: #222;
+	text-align:left;
+}
+
+#MyControl .controlbox-div {
+	display: none;
+	border: 1px solid #4297d7;
+	z-index: 100; /*must have*/
+}
+
+#MyControl .controlbox-div input{
+	position: relative; padding: 0;
+	margin: 0; text-align:left; width:auto; 
+}
+
+#MyControl .controlbox-button {
+ font-weight: bold;
+ background: #D0E5F5;
+ height:20px;
+}
+
+#MyControl .controlbox-button a
+{
+    /* background-color: #FFF7E7; border: 1px solid #78acff; */
+    font-size: 9pt;
+    cursor: hand;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+#MyControl .controlbox-button a:hover
+{
+   background: #5c9ccc;
+}
+
+
+#MyControl .controlbox-left {
+	display:inline; float:left; height:20px; 
+	width: 49%;
+	position:relative;
+}
+#MyControl .controlbox-mid {
+	display:inline; float:left; height:20px; 
+	width: 32%;
+	position:relative;
+}
+#MyControl .controlbox-right {
+	display:inline; float:right;height:20px;
+	width: 49%;
+	text-align: right;position:relative;right:3px;
+}
+
+#MyControl .controlbox-data {
+	display:block;width:100%;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	position:relative;
+}
+
+#MyControl .controlbox-data td
+{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #c5dbec;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #c5dbec;
+}

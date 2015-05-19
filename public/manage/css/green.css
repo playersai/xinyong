@@ -1,0 +1,26 @@
+#top a{color:#000;}
+#top a:hover{color:#333;}
+
+#tab .tab_line{background:url(../img/green/tab.gif) left top;}
+#tab span{border-width:1px 1px 0;background-color:transparent;margin-right:1px;}
+#tab span.on{color:#FFF;background:url(../img/green/tab.gif) 0 bottom;}
+#tab span.off{color:#EBF2EA;background:url(../img/green/tab.gif) 0 -4px;}
+#tab span.hover{background:url(../img/green/tab.gif) 0 -39px;}
+#tab_home .ico{background-image:url(../img/icon-white.png);}
+
+#left{border-right:1px solid #DDD;}
+#left .menu a{color:#000;}
+#left .menu a:hover{background:#C7DDB3;}
+
+#content iframe{background:#EEE;filter:alpha(opacity=88);-moz-opacity:0.88;-khtml-opacity:0.88;opacity:0.88;}
+
+#skinFlashBox{position:absolute;left:0px;top:0px;width:100%;z-index:-10;}
+#skinFlashBox img{position:absolute;left:0px;top:0px;width:100%;z-index:-10;display:none;}
+/*
+z-index借来定义背景图数量，这里为负，JS中取正；
+background定义背景图路径，以skin_0.jpg命名，第二个则是skin_1.jpg，...
+*/
+#flash_green{z-index:-9;background-image:url(../img/green/skin_0.jpg);}
+/* IE6下会被artDialog挡住 */
+#content,#left,#top{_position:relative;_z-index:2;}
+#skinFlashBox{_z-index:1;}

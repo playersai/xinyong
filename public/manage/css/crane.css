@@ -1,0 +1,20 @@
+#top{background:url(../img/crane/top_bg.jpg) repeat-x;color:#937959;}
+#top .top_left{background:url(../img/crane/top_left.jpg) no-repeat left;}
+#top .top_right{background:url(../img/crane/top_right.jpg) no-repeat right;}
+#top a{color:#937959;}
+#top a:hover{color:#C7AC88;}
+ 
+#tab .tab_line{background:url(../img/crane/tab.gif) left top;}
+#tab span a{color:#B6966F;}
+#tab span.on{border:1px solid #78AEC1;background:url(../img/crane/tab.gif) 0 -74px;}
+#tab span.off{color:#797979;border:1px solid #D7CFC5;background:url(../img/crane/tab.gif) 0 -39px;}
+#tab span.hover{border:1px solid #C5BAAC;background:url(../img/crane/tab.gif) 0 -4px;}
+
+#left{background:#F6F5E5;border-right:1px solid #EBE6DD;}
+#left .left_bottom{background:url(../img/crane/left_bottom.jpg) center bottom no-repeat;}
+#left .menu ul.main{margin-top:10px;border-top:1px solid #FFF;border-bottom:1px solid #DDD;}
+#left .menu a{border-top:1px solid #DDD;border-bottom:1px solid #FFF;}
+#left .menu a{color:#937959;}
+#left .menu a:hover{background:#F0E5CC;}
+
+#content iframe{background:#F6F5E5;}

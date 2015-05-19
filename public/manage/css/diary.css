@@ -1,0 +1,16 @@
+#top{background:url(../img/diary/top.jpg);color:#D7C8BB;}
+#top a{color:#D7C8BB;}
+#top a:hover{color:#FFF;}
+#top .logo{background:url(../img/logo2.png) no-repeat;}
+
+#tab span a{color:#B6966F;}
+#tab span.on{color:#421E00;border:1px solid #420F03;background:url(../img/diary/tab.gif) 0 bottom;}
+#tab span.off{color:#D7C8BB;border:1px solid #671A08;background:url(../img/diary/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #420F03;background:url(../img/diary/tab.gif) 0 -39px;}
+
+#left{background:url(../img/diary/left.gif) right 0;border-right:none;width:200px;}
+#left .menu ul.main{margin-top:10px;border-top:1px solid #FFF;border-bottom:1px solid #E7DCC0;}
+#left .menu a{color:#222;border-top:1px solid #E7DCC0;border-bottom:1px solid #FFF;}
+#left .menu a:hover{background:#F9F2E5;}
+
+#content iframe{background:#FDFAEE;}

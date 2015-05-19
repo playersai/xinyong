@@ -1,0 +1,17 @@
+#top{background:url(../img/dandelion/top.jpg);color:#346266;}
+#top .top_left{background:url(../img/dandelion/top_left.jpg) no-repeat 300px 0;}
+#top a{color:#346266;}
+#top a:hover{color:#000;}
+
+#tab .tab_line{background:url(../img/dandelion/tab.gif) left top;}
+#tab span{border:1px solid #D7CFC5;}
+#tab span.on{color:#FFF;border:1px solid #1f6f92;background:url(../img/dandelion/tab.gif) 0 bottom;}
+#tab span.off{color:#2d7c9e;border:1px solid #2d7c9e;background:url(../img/dandelion/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #1c6889;background:url(../img/dandelion/tab.gif) 0 -39px;}
+
+#left{background:url(../img/dandelion/left.png) repeat-x #5EB8D6;border-right:1px solid #86B7CE;}
+#left .left_top{background:url(../img/dandelion/left_top.jpg) 0 208px no-repeat;}
+#left .menu a{color:#346266;}
+#left .menu a:hover{color:#000;}
+
+#content iframe{background:#f4fbfd;}

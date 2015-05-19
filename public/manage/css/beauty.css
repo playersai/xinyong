@@ -1,0 +1,28 @@
+#top {color:#333;background:#FCFAEF;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+#top a{color:#333;}
+#top a:hover{color:#000;}
+
+#tab .tab_line{background:url(../img/beauty/tab.gif) left top;opacity:1;}
+#tab span{border:1px solid #CAC5B2;}
+#tab span.on{color:#FFF;border:1px solid #7E6B27;background:url(../img/beauty/tab.gif) 0 bottom;}
+#tab span.off{color:#A19A80;border:1px solid #B6C7D3;background:url(../img/beauty/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #C9BE99;background:url(../img/beauty/tab.gif) 0 -39px;}
+
+#left{background:#FCFAEF;border-right:1px solid #E4DAB9;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+#left .menu ul.main{border-top:1px solid #FFF;border-bottom:1px solid #E4DAB9;}
+#left .menu a{color:#333;border-top:1px solid #E4DAB9;border-bottom:1px solid #FFF;}
+#left .menu a:hover{background:#E5E0C5;}
+
+#content iframe{background:#EEE;filter:alpha(opacity=92);-moz-opacity:0.92;-khtml-opacity:0.92;opacity:0.92;}
+
+
+#skinFlashBox{position:absolute;left:0px;top:0px;width:100%;z-index:-10;}
+#skinFlashBox img{position:absolute;left:0px;top:0px;width:100%;z-index:-10;display:none;}
+/*
+z-index借来定义背景图数量，这里为负，JS中取正；
+background定义背景图路径，以skin_0.jpg命名，第二个则是skin_1.jpg，...
+*/
+#flash_beauty{z-index:-24;background-image:url(../img/beauty/skin_0.jpg);}
+/* IE6下会被artDialog挡住 */
+#content,#left,#top{_position:relative;_z-index:2;}
+#skinFlashBox{_z-index:1;}

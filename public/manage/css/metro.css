@@ -1,0 +1,14 @@
+#top{background:#c41f20;color:#DEE5F2;}
+#top a{color:#DEE5F2;}
+#top a:hover{color:#FFF;}
+#top .logo{background:url(../img/logo2.png) no-repeat;}
+
+#tab span{border:1px solid #D7CFC5;}
+#tab span.on{color:#FFF;border:1px solid #c41f20;background:#8C0F10;}
+#tab span.off{color:#CCD6E5;border:1px solid #c41f20;background:#8C0F10;}
+#tab span.hover{border:1px solid #1262B7;background:#003F7F;}
+
+#left{background:#F3F3F3;}
+#left .menu ul.main{border-top:1px solid #FFF;border-bottom:1px solid #DDD;}
+#left .menu a{color:#222;border-top:1px solid #DDD;border-bottom:1px solid #FFF;}
+#left .menu a:hover{background:#E6E6E6;}

@@ -1,0 +1,18 @@
+body{background:url(../img/wood/body.jpg);}
+
+#top{color:#613D11;}
+#top a{color:#613D11;}
+#top a:hover{color:#FFF;}
+
+#tab .tab_line{background:url(../img/wood/tab.gif) left top;}
+#tab span a{color:#B6966F;}
+#tab span.on{border:1px solid #772000;background:url(../img/wood/tab.gif) 0 bottom;}
+#tab span.off{color:#EFD0A5;border:1px solid #975E1F;background:url(../img/wood/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #772000;background:url(../img/wood/tab.gif) 0 -39px;}
+
+#left{border-right:1px solid #A0763F;}
+#left .menu ul.main{border-top:1px solid #E2BA7F;border-bottom:1px solid #A0763F;}
+#left .menu a{color:#613D11;border-top:1px solid #A0763F;border-bottom:1px solid #E2BA7F;}
+#left .menu a:hover{background:#CF9B59;background:rgba(148, 84, 18, 0.2);}
+
+#content iframe{background:#FFF8DC;}

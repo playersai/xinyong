@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body { font-family: Arial, Helvetica, sans-serif, "宋体"; font-size: 12px; line-height: 120%; font-weight: normal; color: #333333; text-align: left; margin: 0; }
+#breadcrumb { background: url(../../SESManage/css/img/breadcrumb03_r.jpg) no-repeat right top; height: 39px; }
+#breadcrumb p { padding-top: 10px; }
+#welcome { padding: 10px 19px 0 10px; }
+#welcome_bg { background: url(../image/welcome_bg.jpg) repeat-x; margin-bottom: 10px; }
+#welcome_bg_l { background: url(../image/welcome_bg_l.jpg) no-repeat left; }
+#welcome_bg_r { background: url(../image/welcome_bg_r.jpg) no-repeat right; height: 130px; padding-left: 236px; }
+.welcome_name { padding: 55px 0 0 0; line-height: 30px; font-size: 16px; font-weight: bold; color: #c41f20; }
+.welcome_button { background: url(../image/welcome_button.jpg) no-repeat; width: 77px; height: 24px; padding-top: 4px; font-weight: bold; color: #fff; border: 0; cursor: pointer; margin: 0 20px 30px 0; }
+.welcome_list { overflow: hidden; white-space:nowrap; text-overflow: ellipsis;/*word-break:break-all;*/ }
+.f_gray { width: 98px; float:right;}
+.portlet { margin-bottom: 10px; }
+* html .portlet { height: 140px; }
+.welcome_title { background: url(../image/welcome_title.jpg) no-repeat left; }
+.welcome_c_title { color: #319BCB; height: 30px; padding-right: 10px; }
+.welcome_title_w { font-weight: bold; color: #c41f20; padding: 3px 0 0 60px; }
+.welcome_c_bg { background: url(../image/welcome_c_bg.jpg) repeat-x top; height: 140px; }
+.welcome_c_bg_l { background: url(../image/welcome_c_bg_l.jpg) no-repeat left top; height: 140px; }
+.welcome_c_bg_r { background: url(../image/welcome_c_bg_r.jpg) no-repeat right top; padding: 14px 20px 14px 20px; line-height: 23px; height: 140px; }
+.hand td { cursor: pointer; }
+a:link, a:visited { color: #000000; text-decoration: none; }
+a:hover, a:active { text-decoration: underline; }
+body { font-family: Arial, Helvetica, sans-serif, "宋体"; font-size: 12px; line-height: 120%; font-weight: normal; color: #333333; text-align: left; margin: 0; }
+table, div, form, ul, p { margin: 0; padding: 0; }
+td, div { font-size: 12px; }
+img, li { border: none; }
+ul { list-style: none; }

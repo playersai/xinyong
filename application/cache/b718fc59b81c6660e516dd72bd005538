@@ -1,0 +1,263 @@
+1408083535TS---><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广东省中山市板芙镇人民政府</title>
+<link href="/public/index/css/css.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/public/index/css/flexigrid.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/public/index/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/public/index/js/jquery.jslides.js"></script>
+<script type="text/javascript" src="/public/index/js/jquery.litenav.js"></script>
+<script type="text/javascript" src="/public/index/js/koala.min.1.5.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript" src="/public/index/js/centerwell.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#fox_ie8').click(function(){
+		$(this).css("color","#333").siblings().removeClass();
+  });
+});
+$(function(){
+	$('#fox_ie8').blur(function(){
+		$(this).css("color","#9f9f9f").siblings().removeClass();
+  });
+});
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		jQuery.jqtab = function(tabtit,tab_conbox,shijian) {
+			$(tab_conbox).find("li").hide();
+			$(tabtit).find("li:first").addClass("thistab").show(); 
+			$(tab_conbox).find("li:first").show();
+			
+			$(tabtit).find("li").bind(shijian,function(){
+				$(this).addClass("thistab").siblings("li").removeClass("thistab"); 
+				var activeindex = $(tabtit).find("li").index(this);
+				$(tab_conbox).children().eq(activeindex).show().siblings().hide();
+				return false;
+			});
+			
+		};
+		/*调用方法如下：*/		
+		$.jqtab("#tabs","#tab_conbox","mouseenter");
+		$.jqtab("#tabs2","#tab_conbox2","mouseenter");
+		$.jqtab("#tabs3","#tab_conbox3","click");
+		$.jqtab("#tabs4","#tab_conbox4","mouseenter");
+		$.jqtab("#tabs5","#tab_conbox5","mouseenter");
+		$.jqtab("#tabs6","#tab_conbox6","mouseenter");
+		$.jqtab("#tabs7","#tab_conbox7","mouseenter");
+		$.jqtab("#tabs8","#tab_conbox8","mouseenter");
+		$.jqtab("#tabs9","#tab_conbox9","mouseenter");
+		$.jqtab("#tabs10","#tab_conbox10","mouseenter");
+		$.jqtab("#tabs11","#tab_conbox11","mouseenter");
+		$.jqtab("#tabs12","#tab_conbox12","mouseenter");
+	});
+</script>
+<script>
+	$(document).ready(function(){
+		lastBlock = $("#a1");
+		maxWidth = 628;
+		minWidth = 41;	
+
+		$("ul li em").hover(
+		  function(){
+			$(lastBlock).animate({width: minWidth+"px"}, { queue:false, duration:1 });
+		$(this).animate({width: maxWidth+"px"}, { queue:false, duration:1});
+		lastBlock = this;
+		  }
+		);
+	});
+</script>
+</head>
+<body>
+<div class="top_bg"></div>
+<div class="warper">
+  <div class="top">
+    <div class="top_left">2014年08月15&nbsp;&nbsp;星期五&nbsp;&nbsp;</div>
+    <div class="top_right">
+    <span><input type="text" placeholder='请输入关键词' id="fox_ie8" onKeyDown="textdown(event)" onKeyUp="textup()" value="请输入关键词" onfocus="if(value=='请输入关键词'){value=''}" onblur="if (value ==''){value='请输入关键词'}" /><a href=""></a></span>
+      <ul>
+        <li><a href="">RSS订阅</a>|</li>
+        <li><a href="">设为主页</a>|</li>
+        <li><a href="">加入收藏</a></li>
+      </ul>
+
+    </div>
+  </div>
+  <!--top end-->
+  <div class="head">
+    <div class="logo"></div>
+    <div class="head_banner">
+      <div id="full-screen-slider">
+          <ul id="slides">
+		                
+          </ul>
+      </div>    
+    </div>
+    <!--head_banner end-->
+  </div>
+  <!--head end-->
+  <div class="nav">
+    <ul>
+      <li class="nav_li"><a href="/index.php"><span>首页</span><i>HOME</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/open_goverment/"><span>政务公开</span><i>OPEN&nbsp;GOVERMENT</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/online_services/"><span>网上服务</span><i>ONLINE&nbsp;SERVICES</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/interaction/"><span>交流互动</span><i>INTERACTION</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/landscape/"><span>山水板芙</span><i>LANDSCAPE</i></a></li>
+      <li>
+        <img src="/public/index/images/nav_bg_2.png" height="50" width="2" />
+      </li>
+      <li><a href="/index.php/topic_page/"><span>热点专题</span><i>HOT&nbsp;TOPIC</i></a></li>
+    </ul>
+  </div>
+  <!--nav end-->
+  <div class="clear"></div>
+  <div class="complaint_online">
+    <div class="complaint_online_btn">
+      <img src="/public/index/images/complaint_online .png" />
+      <ul>
+        <li><a class="mayor_mail_btn1" href="">镇长信箱</a></li>
+        <li><a class="mayor_mail_btn2" href="">我要投诉</a></li>
+        <li><a class="mayor_mail_btn3" href="">我要咨询</a></li>
+      </ul>
+      <div class="more"><a href="" >更多&gt;&gt;</a></div>
+    </div>
+    <!--complaint_online_btn end-->
+    <div class="complaint_online_tab">
+      <form method="post" action="" target="_blank">
+        受理编号：
+        <input type="text" name="seria" id="seria" onblur="if (this.value ==''){this.value='请输入17位受理编号'}" onfocus="if (this.value ==this.value){this.value =''}" value="请输入17位受理编号" class="mayor_mail_input">
+        查询密码：
+        <input type="password" name="pwd" id="pwd" onblur="if (this.value ==''){this.value='请输入6位查询密码'}" onfocus="if (this.value ==this.value){this.value =''}" value="请输入6位查询密码" class="mayor_mail_input">
+        关键字：
+        <input type="text" name="keyword" id="keyword" onblur="if (this.value ==''){this.value='请输入关键字'}" onfocus="if (this.value ==this.value){this.value =''}" value="请输入关键字" class="mayor_mail_input">
+        <span style=" border: 1px solid #797979; padding: 4px 5px; margin-right: 10px; "> 类别 |  <select name="">
+              <option value="" selected="selected">所有</option>
+              <option value="">类别1</option>
+              <option value="">类别2</option>
+              <option value="">所有类别</option>
+            </select>
+</span>
+        <input type="submit" value="查询" class="mayor_mail_submit">
+      </form>
+      <div class="con">
+        <table width="100%" border="0" cellspacing="1" cellpadding="0" bgcolor="c8c8c8">
+          <tr bgcolor="e1e1e1" height="45">
+            <th width="130" scope="col">受理编号</th>
+            <th scope="col">来件标题</th>
+            <th width="100" align="center" scope="col">类别</th>
+            <th width="130" align="center" scope="col">处理期限</th>
+            <th width="100" align="center" scope="col">状态</th>
+          </tr>
+          <tr bgcolor="ffffff" height="50">
+            <td width="130" align="center">140731031116000</td>
+            <td>第二、三类医疗器械经营许可许可证注</td>
+            <td width="100" align="center">投诉监督</td>
+            <td width="130" align="center">2014-05-08</td>
+            <td width="100" align="center" style="color:#F00;"><strong>已办结</strong></td>
+          </tr>
+          <tr bgcolor="ffffff" height="50">
+            <td width="130" align="center">140731031116000</td>
+            <td>法人企业第二、三类医疗器械经营许可</td>
+            <td width="100" align="center">咨询办事</td>
+            <td width="130" align="center">2014-05-08</td>
+            <td width="100" align="center" style="color:#F00;"><strong>已办结</strong></td>
+          </tr>
+          <tr bgcolor="ffffff" height="50">
+            <td width="130" align="center">140731031116000</td>
+            <td>外国人入境就业许可(一期)</td>
+            <td width="100" align="center">镇长信箱</td>
+            <td width="130" align="center">2014-05-08</td>
+            <td width="100" align="center" style="color:#F00;"><strong>已办结</strong></td>
+          </tr>
+          <tr bgcolor="ffffff" height="50">
+            <td width="130" align="center">140731031116000</td>
+            <td>第二、三类医疗器械经营许可许可证注</td>
+            <td width="100" align="center">投诉监督</td>
+            <td width="130" align="center">2014-05-08</td>
+            <td width="100" align="center" style="color:#F00;"><strong>已办结</strong></td>
+          </tr>
+          <tr bgcolor="ffffff" height="50">
+            <td width="130" align="center">140731031116000</td>
+            <td>法人企业第二、三类医疗器械经营许可</td>
+            <td width="100" align="center">咨询办事</td>
+            <td width="130" align="center">2014-05-08</td>
+            <td width="100" align="center" style="color:#F00;"><strong>已办结</strong></td>
+          </tr>
+        </table>
+      </div>
+      <!--complaint_online_con end-->
+      <div class="page">共<span style="color:#f00;">315</span>条记录，分<span style="color:#f00;">63</span>页显示 <a class="first" href="">首页</a> <a class="prev" href="">上一页</a> <a href="">1</a> <span class="page_now">2</span> <a href="">3</a> <a href="">4</a> <a class="next" href="">下一页</a><a class="last" href="">尾页</a></div>
+    </div>
+    <!--complaint_online_tab end--> 
+  </div>
+  <!--complaint_online end-->
+  <div class="in_gov_weibo">
+    <div class="tit">政务微博<a href="">进入政务微博广场&gt;&gt;</a> </div>
+    <div class="con">
+      <iframe width="100%" height="415" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=415&fansRow=2&ptype=1&speed=100&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=3506393293&verifier=b65df5a4&colors=ffffff,ffffff,666666,0082cb,ecfbfd&dpc=1"></iframe>
+    </div>
+  </div>
+  <!--in_gov_weibo end-->
+  <div class="survey_online online_list">
+    <div class="tit">网上调查<a href="">更多&gt;&gt;</a></div>
+    <div class="con">
+      <ul>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>7月8日上午，市委常委、常务副市长谢中凡带领市发改局7月8日上午，市委常委、常务副市长谢中凡带领市</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>中山职院等帮扶单位相关领导，到板尾村指导扶贫工作</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>镇党委副书记、镇长黄顺欢，镇党委委员李帝松</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>的25个相对困难村之一，按照帮扶工作规划</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>从今年开始至2016年对板尾村进行重点帮扶</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>镇党委副书记、镇长黄顺欢，镇党委委员李帝松</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集</a></li>
+      </ul>
+    </div>
+    <!--con end--> 
+  </div>
+  <!--survey_online end-->
+  
+  <div class="collect_online online_list">
+    <div class="tit">网上征集<a href="">更多&gt;&gt;</a></div>
+    <div class="con">
+      <ul>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>7月8日上午，市委常委、常务副市长谢中凡带领市发改局7月8日上午，市委常委、常务副市长谢中凡带领市</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>中山职院等帮扶单位相关领导，到板尾村指导扶贫工作</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>镇党委副书记、镇长黄顺欢，镇党委委员李帝松</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>的25个相对困难村之一，按照帮扶工作规划</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>从今年开始至2016年对板尾村进行重点帮扶</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>镇党委副书记、镇长黄顺欢，镇党委委员李帝松</a></li>
+        <li><font>2014-07-10</font><a href=""><i>&middot;</i>将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集</a></li>
+      </ul>
+    </div>
+    <!--con end--> 
+  </div>
+  <!--collect_online end-->
+  <div class="common_problem">
+    <div class="tit">常见问题<a href="">更多&gt;&gt;</a> </div>
+    <div class="con">
+      <ul>
+        <li><a href=""><i>&middot;</i>7月8日上午，市委常委、常务副市长谢中凡带领市发改局7月8日上午，市委常委、常务副市长谢中凡带领市</a></li>
+        <li><a href=""><i>&middot;</i>中山职院等帮扶单位相关领导，到板尾村指导扶贫工作</a></li>
+        <li><a href=""><i>&middot;</i>镇党委副书记、镇长黄顺欢，镇党委委员李帝松</a></li>
+        <li><a href=""><i>&middot;</i>将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集将通过帮助该村完善幼儿园设施、开展土地反承包村集</a></li>
+      </ul>
+    </div>
+    <!--con end-->
+  </div><!--common_problem end-->
+  <div class="online_interview"><a href=""><img src="/public/index/images/online_interview.jpg" /></a></div>
+</div>
+<!--warper end-->

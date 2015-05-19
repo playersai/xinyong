@@ -1,0 +1,24 @@
+*{margin:0;padding:0;outline:none;}
+body{font:12px/18px Verdana,Arial,Helvetica,sans-serif;background:#FFF;}
+li{list-style:none;}
+img{border:none;}
+.cl{clear:both;}
+
+#header{height:64px;width:800px;margin:0 auto;}
+#main{background:url(../img/login/ink_bg.jpg);}
+#main .content{height:440px;width:900px;margin:0 auto;position:relative;overflow:hidden;}
+#main form{height:400px;width:338px;background:url(../img/login/form.jpg) no-repeat;position:absolute;top:20px;right:90px;z-index:9;}
+#main form label{position:absolute;left:92px;cursor:text;color:#999;z-index:12;}
+#main form input.normal{font-weight:bold;width:192px;height:18px;border:none;border:0;color:#666;position:absolute;left:90px;z-index:11;}
+#main form input.focus{font-size:16px;}
+#uname,#uname_txt{top:133px;}
+#pwd,#pwd_txt{top:190px;}
+#verify,#verify_txt{top:247px;}
+#main form #verify_img{position:absolute;top:243px;left:200px;}
+#main form input.submit{position:absolute;top:296px;left:118px;}
+#main form .remember{position:absolute;top:345px;left:124px;color:#DDD;line-height:14px;}
+#main form .remember input{width:13px;height:13px;margin:0 3px;float:left;}
+#main .pic{position:absolute;width:900px;height:440px;top:0;left:0;z-index:1;}
+#footer{height:48px;background:#F7F7F7;color:#848585;}
+#footer .content{width:600px;margin:0 auto;}
+#footer .copyright{text-align:right;line-height:48px;}

@@ -1,0 +1,17 @@
+#top{background:url(../img/car/top.jpg);color:#FFF;}
+#top .top_left{background:url(../img/car/top_left.jpg) no-repeat 300px 0;}
+#top a{color:#FFF;}
+#top a:hover{color:#EEE;}
+#top .logo{background:url(../img/logo2.png) no-repeat;}
+
+#tab .tab_line{background:url(../img/car/tab.gif) left top;}
+#tab span{border:1px solid #D7CFC5;}
+#tab span a{color:#FFF;}
+#tab span.on{color:#FFF;border:1px solid #222;background:url(../img/car/tab.gif) 0 bottom;}
+#tab span.off{color:#EEE;border:1px solid #333;background:url(../img/car/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #333;background:url(../img/car/tab.gif) 0 -39px;}
+
+#left{background:url(../img/car/left.gif);border:none;}
+#left .left_top{background:url(../img/car/left_top.jpg) 0 top no-repeat;}
+#left .menu a{color:#FFF;}
+#left .menu a:hover{color:#DDD;}

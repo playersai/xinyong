@@ -1,0 +1,745 @@
+/* CSS Document */
+
+html {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; color: #606060; font-size: 12px;
+}
+body {
+	margin: 0px; 
+}
+dl {
+	margin: 0px;
+}
+dd {
+	margin: 0px;
+}
+h1 {
+	margin: 0px;
+}
+h2 {
+	margin: 0px;
+}
+h3 {
+	margin: 0px;
+}
+h4 {
+	margin: 0px;
+}
+h5 {
+	margin: 0px;
+}
+h6 {
+	margin: 0px;
+}
+p {
+	margin: 0px;
+}
+form {
+	margin: 0px;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ol {
+	list-style: none; margin: 0px; padding: 0px;
+}
+li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h1 {
+	font-size: 12px; font-weight: normal;
+}
+h2 {
+	font-size: 12px; font-weight: normal;
+}
+h3 {
+	font-size: 12px; font-weight: normal;
+}
+h4 {
+	font-size: 12px; font-weight: normal;
+}
+h5 {
+	font-size: 12px; font-weight: normal;
+}
+h6 {
+	font-size: 12px; font-weight: normal;
+}
+s {
+	font-size: 12px; font-weight: normal;
+}
+i {
+	font-size: 12px; font-weight: normal;
+}
+em {
+	font-size: 12px; font-weight: normal;
+}
+body {
+	font: 12px/18px tahoma, arial, sans-serif; margin: 0px auto; color: #606060;; font-size-adjust: none; font-stretch: normal;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+abbr {
+	border: 0px currentColor; border-image: none; font-variant: normal;
+}
+acronym {
+	border: 0px currentColor; border-image: none; font-variant: normal;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+input {
+	font-family: inherit; font-size: inherit; font-weight: inherit;
+}
+textarea {
+	font-family: inherit; font-size: inherit; font-weight: inherit;
+}
+select {
+	font-family: inherit; font-size: inherit; font-weight: inherit;
+}
+input {
+	
+}
+textarea {
+	
+}
+select {
+	
+}
+em {
+	font-style: normal;
+}
+i {
+	font-style: normal;
+}
+s {
+	font-style: normal;
+}
+a {
+	color: #606060; text-decoration: none;
+}
+a:hover {
+	color: rgb(85, 85, 85);
+}
+button {
+	padding: 0px; cursor: pointer;
+}
+.clearfix::after {
+	height: 0px; overflow: hidden; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clearfix {
+	
+}
+.clear {
+	width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.floatNone {
+	float: none;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.font_14 {
+	font-size: 14px;
+}
+.font_12 {
+	font-size: 12px;
+}
+.fontBold {
+	font-weight: bold;
+}
+.txt_white {
+	color: rgb(255, 255, 255);
+}
+a.txt_white:hover {
+	color: rgb(204, 204, 204);
+}
+.txt_blue {
+	color: rgb(0, 0, 0);
+}
+.txt_wntj {
+	width: 163px; height:50px; color: rgb(0, 0, 0); overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+a.txt_blue:hover {
+	color: #c20404;
+}
+a.txt_wntj:hover {
+	color: #c20404;
+}
+.txt_green {
+	color: rgb(119, 172, 33);
+}
+.txt_red {
+	color: rgb(235, 34, 39);
+}
+.txt_grey {
+	color: rgb(167, 167, 167);
+}
+a.txt_grey:hover {
+	color: rgb(136, 136, 136);
+}
+.yahei {
+	font-family: "Microsoft YaHei";
+}
+.marginB10 {
+	margin-bottom: 10px; 
+}
+.tit-arrow {
+	background:  url(imageszhong/blue-line.png) no-repeat left bottom; height: 33px; line-height: 30px;
+}
+.tit-arrow h3 {
+	background: url(imageszhong/arrow-blue.png) no-repeat left; color: rgb(195, 5, 5); padding-left: 20px; font-family: "Microsoft YaHei"; font-size: 14px;
+}
+a.more {
+	background: url(imageszhong/arrow-ico.png) no-repeat right; width: 55px; display: block;
+}
+
+
+
+
+
+.menu {
+	background: #e8ddb9; padding: 0px 15px; height:25px; color: rgb(126,126,126); line-height: 23px; font-family: "Microsoft YaHei";
+}
+.menu h3 {
+	font-size: 12px; 
+}
+.menu a {
+	color: rgb(126,126,126); float: right;
+}
+.menu ul{overflow:hidden;zoom:1;}
+.menu li{float:left;padding:0 15px;cursor:pointer;text-align:center; background: #e8ddb9; height:25px;line-height:23px; font-size:12px;}
+.menu li.hover{padding:0 15px;background:#FFFFFF;color:rgb(0, 0, 0);height:25px;line-height:23px; border-bottom:none; font-size:12px;  border-top:1px solid rgb(223, 221, 185);}
+
+
+
+.block {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(221, 221, 221); border-image: none;
+}
+#header {
+	background: url(imageszhong/header-bg.jpg) repeat-x 0px 0px; width: 100%; height: 190px; margin-bottom: 10px;
+}
+.topBar {
+	margin: 0px auto; width: 1000px; height: 35px; text-align: right; line-height: 35px;
+}
+.topBar font {
+	color: rgb(204, 204, 204);
+}
+.topBar span {
+	background: url(imageszhong/tel-ico.png) no-repeat left; padding-left: 22px;
+}
+.logoBar {
+	margin: 0px auto; width: 1000px; height: 115px; position: relative;
+}
+.logoBar .logo {
+	left: 0px; top: 18px; width: 340px; height: 80px; position: absolute;
+}
+.logoBar .text {
+	left: 340px;  width: 652px; padding-top:15px; height: 80px; position: absolute;
+}
+.logoBar .search {
+	top: 40px; width: 300px; height: 50px; right: 0px; position: absolute;
+}
+.logoBar .search .border-input {
+	padding: 0px 5px; border: 2px solid rgb(170, 170, 170); border-image: none; width: 160px; height: 28px; line-height: 28px; margin-right: 5px; float: left;
+}
+.logoBar .search .border-select {
+	padding: 5px; border: 2px solid rgb(170, 170, 170); border-image: none; width: 70px; margin-top: 0px; margin-right: 5px; float: left;
+}
+.logoBar .search .btn-search {
+	background: url(imageszhong/btn-search.png) no-repeat 0px 0px; border: 0px currentColor; border-image: none; width: 31px; height: 31px; text-indent: -9999px; overflow: hidden; float: left; cursor: pointer;
+}
+.navBar {
+	margin: 0px auto; width: 1000px; height: 40px; color: rgb(255, 255, 255); line-height: 40px; font-family: "Microsoft YaHei"; font-size: 15px; font-weight: bold;
+}
+.navBar ul {
+	
+}
+.navBar ul li {
+	float: left;
+}
+.navBar ul li a {
+	background: url(imageszhong/nav-li-bg.png) no-repeat 0px 0px; padding: 0px 6px; color: rgb(255, 255, 255); display: block;
+}
+.navBar ul li a:hover {
+	background: rgb(235, 34, 39);
+}
+.navBar ul li a.none {
+	background: none;
+}
+#containner {
+	margin: 0px auto; width: 1000px;
+}
+.bannerBar {
+	
+}
+.banner {
+	background: rgb(238, 238, 238); width: 318px; height: 260px; float: left;
+}
+.lunbo_box {
+	width: 740px; height: 260px; overflow: hidden; float: left; display: inline;
+}
+
+.lb_pic_box img {
+	left: 0px; top: 0px; width: 610px; height: 260px; display: none; position: absolute;
+}
+.lb_ul {
+	width: 130px; overflow: hidden; float: left;
+}
+.lb_ul li {
+	background: url(imageszhong/cover1310/lb_li.png); width: 130px; height: 51px; overflow: hidden; margin-top: 1px; float: left; position: relative; cursor: pointer;
+}
+.lb_ul li.on {
+	background: url(imageszhong/cover1310/lb_li.png) no-repeat center -51px;
+}
+.lb_ul li div {
+	left: 0px; top: 0px; height: 51px; position: absolute;
+}
+.lb_ul li p {
+	left: 0px; top: 0px; height: 51px; position: absolute;
+}
+.lb_ul li div {
+	background: url(imageszhong/cover1310/lb_li.png) no-repeat center -96px; width: 0px;
+}
+.lb_ul li p {
+	font: 14px/51px "Microsoft YaHei"; width: 130px; text-align: center; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal;
+}
+.lb_ul li.on p {
+	color: rgb(230, 230, 230);
+}
+.bannerBar-right {
+	padding: 7px 15px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 218px; height: 244px; float: right;
+}
+.bannerBar-zhong{
+
+    border: 1px solid rgb(221, 221, 221); border-image: none; width: 410px; height: 259px; float: left; margin-left:10px;
+}
+.bannerBar-right ul li {
+	padding: 9px 0px; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.recBar {
+	
+}
+.recBar-left {
+	width: 250px; float: right;
+}
+.recBar-left .block {
+	padding: 10px 17px 0px; height: 255px;
+}
+.recBar-left .block ul {
+	background: url(imageszhong/product-ico.png) no-repeat 0px 11px; padding: 0px 20px; line-height: 35px; font-family: "Microsoft YaHei"; font-size: 14px;
+}
+
+.bloer
+{
+padding-left:10px; padding-right:10px;
+}
+.bloer li{
+ border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid; line-height:20px;
+}
+
+.recBar-left .ad {
+	width: 250px; height: 215px;
+}
+.recBar-left .ad img {
+	width: 250px; height: 215px;
+}
+.recBar-right {
+	width: 740px; float: left;
+}
+.recBar-right .block {
+	height: 490px;
+}
+.recBar-right .block .top {
+	height: 155px;
+}
+.recBar-right .block .top ul {
+	padding: 15px 0px 0px 15px;
+}
+.recBar-right .block .top ul li {
+	padding: 0px 6px; width: 165px; text-align: center; line-height: 30px; float: left;
+}
+.recBar-right .block .top ul li a {
+	
+}
+.recBar-right .block .top ul {
+	
+}
+.recBar-right .block .foot {
+	padding: 0px 20px;
+}
+.recBar-right .block .foot ul {
+	padding-bottom: 8px; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: solid;
+}
+.recBar-right .block .foot ul li {
+	height: 24px; line-height: 24px;  _height: 22px; _line-height: 22px;
+}
+.recBar-right .block .foot ul li:hover {
+	background: rgb(240, 240, 240);
+}
+.recBar-right .block .foot ul li .left {
+ float: left;
+}
+.recBar-right .block .foot ul li .mid {
+	width: 140px; text-align: center; color: rgb(167, 167, 167); float: left;
+}
+.recBar-right .block .foot ul li .right {
+	width: 70px; text-align: right; color: rgb(167, 167, 167); padding-right: 5px; float: right;
+}
+.bookBar {
+	
+}
+.bookBar-left {
+	width: 480px; float: left; margin-left:10px;
+}
+.bookBar-left .block {
+	height: 265px;
+}
+.bookBar-left .block .top {
+	padding: 20px;
+}
+.bookBar-left .block .top .left {
+	width: 165px; float: left;
+}
+.bookBar-left .block .top .right {
+	width: 270px; float: right;
+}
+.bookBar-left .block .top .right h2 {
+	padding-bottom: 5px;
+}
+.bookBar-left .block .foot {
+	
+}
+.bookBar-left .block .foot ul {
+	padding-top: 10px; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: solid;
+}
+.bookBar-left .block .foot ul li {
+	padding: 0px 20px; height: 24px; line-height: 24px; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.bookBar-left .block .foot ul li:hover {
+	background: rgb(240, 240, 240);
+}
+.bookBar-left .block .foot ul li.last {
+	border: 0px currentColor; border-image: none;
+}
+.bookBar-left .block .foot ul li .left {
+	float: left;
+}
+.bookBar-left .block .foot ul li .right {
+	color: rgb(177, 177, 177); float: right;
+}
+.bookBar-right {
+	width: 495px; float: right;
+}
+.bookBar-right .block {
+	padding: 30px 25px 0px; height: 410px;
+}
+.bookBar-right .block .left {
+	width: 180px; float: left;
+}
+.bookBar-right .block .left h2 {
+	padding-bottom: 5px;
+}
+.book-big {
+	width: 180px; height: 305px; position: relative;
+}
+.book-big img {
+	width: 180px; height: 257px;
+}
+.book-big span {
+	background: url(imageszhong/good-ico.png) no-repeat 0px 0px; left: 0px; width: 60px; height: 59px; bottom: 10px; position: absolute;
+}
+.bookBar-right .block .right {
+	width: 240px; overflow: hidden; float: right;
+}
+.bookBar-right .block .right ul {
+	width: 250px; height: 160px; padding-top: 10px;
+}
+.bookBar-right .block .right ul li {
+	width: 90px; text-align: center; line-height: 30px; margin-right: 30px; float: left;
+}
+.bookBar-right .block .right ul li img {
+	width: 90px; height: 120px;
+}
+.projectBar {
+}
+.projectBar-left {
+	width: 495px; float: left;
+}
+.projectBar-left .block {
+	padding: 15px 15px 0px; height: 355px;
+}
+.projectBar-left .block .mid {
+	padding: 10px 0px;
+}
+.projectBar-left .block .mid .left {
+	width: 100px; float: left;
+}
+.projectBar-left .block .mid .right {
+	width: 330px; float: right;
+}
+.projectBar-left .block .mid .right ul {
+	padding-top: 10px; font-family: "Microsoft YaHei";
+}
+.projectBar-left .block .mid .right ul li {
+	background: url(imageszhong/arrow-blue-white.png) no-repeat left; height: 25px; line-height: 25px; padding-left: 25px;
+}
+.projectBar-left .block .mid .right ul li {
+}
+
+
+
+
+.projectBar-right2 {
+	width: 495px; float: right;
+}
+.projectBar-right2 .block {
+  	height: 350px; overflow: hidden; padding-left:35px; padding-top:20px;
+}
+.projectBar-right2 .block ul {
+	width: 500px;
+}
+.projectBar-right2 .block ul li {
+	padding: 10px  0px; width: 85px; height: 140px; text-align: center;  float: left;
+}
+.projectBar-right2 .block ul li img {
+	width: 70px; height: 96px; margin-bottom: 8px;
+}
+
+
+
+.projectBar-right {
+	width: 495px; float: right;
+}
+.projectBar-right .block {
+	height: 465px; overflow: hidden;
+}
+.projectBar-right .block ul {
+	width: 500px;
+}
+.projectBar-right .block ul li {
+	padding: 10px 40px 0px; width: 166px; height: 222px; text-align: center; border-right-color: rgb(234, 234, 234); border-bottom-color: rgb(234, 234, 234); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.projectBar-right .block ul li img {
+	width: 70px; height: 96px; margin-bottom: 8px;
+}
+.bbsBar {
+}
+.bbsBar-left {
+	width: 495px; float: left;
+}
+.bbsBar-left .block {
+	padding: 20px 19px 0px; height: 375px;
+}
+.bbsBar-left .block .top {
+	text-align: center; padding-bottom: 15px;
+}
+.bbsBar-left .block .top img {
+	width: 455px; height: 135px;
+}
+.bbsBar-left .block .top .black {
+	background: url(imageszhong/black.png) 0px 0px; height: 25px; line-height: 25px;
+}
+.bbsBar-left .block .foot {
+	width: 455px; overflow: hidden;
+}
+.bbsBar-left .block .foot ul {
+	width: 500px; line-height: 25px;
+}
+.bbsBar-left .block .foot ul li {
+	text-align: center; padding-bottom: 5px; margin-right: 15px; float: left;
+}
+.bbsBar-left .block .foot ul li img {
+	width: 220px; height: 65px;
+}
+.bbsBar-left .block .foot ul {
+	
+}
+.bbsBar-right {
+	width: 495px; float: right;
+}
+.bbsBar-right .block {
+}
+.bbsBar-right .news.block {
+	padding: 20px 19px 0px 18px; height: 170px;
+}
+.bbsBar-right .news.block .left {
+	width: 305px; height: 151px; float: left; position: relative;
+}
+.bbsBar-right .news.block .left img {
+	width: 305px; height: 151px;
+}
+.bbsBar-right .news.block .right {
+	float: right;
+}
+.bbsBar-right .news.block .right .small {
+	width: 150px; height: 75px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.bbsBar-right .news.block .right .small img {
+	width: 150px; height: 75px;
+}
+.bbsBar-right .news.block .left {
+	
+}
+.bbsBar-right .news.block .black {
+	background: url(imageszhong/black.png) 0px 0px; left: 0px; width: 100%; height: 25px; text-align: center; bottom: 0px; line-height: 25px; position: absolute;
+}
+.bbsBar-right .train.block {
+	padding: 15px 19px 0px; height: 154px;
+}
+.bbsBar-right .train.block .case {
+	padding-top: 5px;
+}
+.bbsBar-right .train.block .case ul {
+	padding-top: 10px;
+}
+.bbsBar-right .train.block .case ul li {
+	width: 33%; float: left;
+}
+.clientBar {}
+
+.clientBar-left1 {width: 1000px;}
+.clientBar-left1 .block {
+	padding: 19px 0px 0px 19px; height: 120px;
+}
+.clientBar-left1 .block ul {}
+.clientBar-left1 .block ul li {
+	width: 112px; height: 45px; margin-right: 10px; margin-bottom: 10px; float: left;
+}
+.clientBar-left1 .block ul li img {
+	border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+
+
+.clientBar-left {width: 495px; float: left;}
+.clientBar-left .block {
+	padding: 19px 0px 0px 19px; height: 120px;
+}
+.clientBar-left .block ul {}
+.clientBar-left .block ul li {
+	width: 105px; height: 45px; margin-right: 10px; margin-bottom: 10px; float: left;
+}
+.clientBar-left .block ul li img {
+	border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+.clientBar-right {
+	width: 495px; float: right;
+}
+.clientBar-right .block {
+	padding: 19px 0px 0px 17px; height: 120px;
+}
+.clientBar-right .block ul {
+}
+.clientBar-right .block ul li {
+	width: 145px; height: 45px; margin-right: 10px; margin-bottom: 10px; float: left;
+}
+.clientBar-right .block ul li img {
+	border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+.aboutBar {
+	padding: 10px 0px;
+}
+.aboutBar h3 {
+	padding-top: 10px; padding-bottom: 10px; font-family: "Microsoft YaHei"; font-size: 18px;
+}
+.aboutBar .left {
+	background: url(imageszhong/pic01.jpg) no-repeat 20px 10px; padding: 0px 20px 10px 130px; width: 183px; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.aboutBar .mid {
+	background: url(imageszhong/pic02.jpg) no-repeat 20px 10px; padding: 0px 20px 10px 130px; width: 182px; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.aboutBar .right {
+	background: url(imageszhong/pic03.jpg) no-repeat 20px 10px; padding: 0px 20px 10px 130px; width: 183px; float: right;
+}
+.code {
+	margin: 0px auto; width: 1000px;
+}
+.code ul {	}
+.code ul li {
+	background: url(imageszhong/blue-foot.jpg) no-repeat 0px 0px; width: 230px; height: 90px; padding-top: 20px; padding-left: 20px; float: left;
+}
+.code ul li img {
+	padding-right: 12px; float: left;
+}
+.copyrightBar {
+	text-align: center; color: rgb(196, 196, 196); line-height: 22px; padding-top: 25px;
+}
+.copyrightBar a {
+	color: rgb(198, 198, 198);
+}
+.copyrightBar a:hover {
+	color: rgb(238, 238, 238);
+}
+.copyrightBar span {
+	color: rgb(136, 136, 136);
+}
+#footer2 {
+	background: url(imageszhong/foot-bg.png) repeat-x 0px 0px; width: 100%; height: 250px; margin-top: 20px; 
+}
+#footer {
+	background: url(imageszhong/foot-bg.png) repeat-x 0px 0px; width: 100%; height: 250px; margin-top: 20px; clear:both;
+}
+.dytjxx {
+	_margin-top: 10px;
+}
+.ycyc {
+	width: 90px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#bigbook_center {
+	width: 190px; text-align: center; display: block;
+}
+
+.Menubox {height:26px; background:#fff}
+.Menubox ul{overflow:hidden;zoom:1;background:url(imageszhong/nav_index02.jpg) repeat-x;}
+.Menubox li{float:left;padding:0 20px;cursor:pointer;text-align:center; background:#fbf7f2;height:24px;line-height:24px;border-bottom:1px solid rgb(221, 221, 221);border-right:1px solid #d5d5d5;}
+.Menubox li.hover{padding:0 20px;background:#fefdf9 url(imageszhong/mainr4.gif) repeat-x ;border-right:1px solid rgb(221, 221, 221);color:rgb(195, 5, 5);height:25px;line-height:25px; border-bottom:none; }
+.Contentbox{clear:both; overflow:hidden;zoom:1;}
+.Contentbox .hover_su{font-size:18px; font-weight:bold; color:#c0250b; text-align:center; padding:8px 0 8px 0;clear:both;}
+.Contentbox .hover_suo{ text-indent:2em; padding:11px 10px 10px 10px;}
+.Contentbox .hover{overflow:hidden;zoom:1;}
+.Contentbox .hover_suo a{ color:#a07c30;}
+.Contentbox .bodys{ background:#fff;}
+.Contentbox .suul{ height:100px; padding:10px 5px 5px 10px;}
+.Contentbox .suul li{ float:left; width:228px; background:url(imageszhong/index_tb_03.gif) no-repeat 0 center; padding-left:12px; height:22px;}
+
+.heimenu ul {
+	padding: 15px 0px 0px 15px;
+}
+.heimenu ul li {
+	padding: 0px 3px; width: 80px; text-align: center; line-height: 20px; float: left;  height:160px;
+}
+
+.heimenu ul li p{
+	 padding-top:10px;
+}
+
+.fer{
+
+	
+}
+
+
+

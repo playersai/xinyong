@@ -1,0 +1,16 @@
+#top{background:#09142B;color:#99C4E9;}
+#top .top_right{background:url(../img/moon/top_right.jpg) no-repeat right;}
+#top a{color:#99C4E9;}
+#top a:hover{color:#FFF;}
+#top .logo{background:url(../img/logo2.png) no-repeat;}
+
+#tab .tab_line{width:100%;background:url(../img/moon/tab.gif) left top;}
+#tab span a{color:#0A89AD;}
+#tab span.on{color:#FFF;border:1px solid #065B8A;background:url(../img/moon/tab.gif) 0 bottom;}
+#tab span.off{color:#6F879B;border:1px solid #07557F;background:url(../img/moon/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #1F7BAD;background:url(../img/moon/tab.gif) 0 -39px;}
+
+#left{background:#070E1F;border-right:1px solid #666;}
+#left .left_bottom{background:url(../img/moon/left_bottom.jpg) 0 bottom no-repeat;}
+#left .menu a{color:#B0C3DF;}
+#left .menu a:hover{background:#084771;}

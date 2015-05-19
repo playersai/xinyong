@@ -1,0 +1,17 @@
+#top{background:url(../img/dusk/top.jpg);color:#000;}
+#top .top_right{background:url(../img/dusk/top_right.jpg) no-repeat right;}
+#top a{color:#000;}
+#top a:hover{color:#333;}
+
+#tab .tab_line{background:url(../img/dusk/tab.gif) left top;}
+#tab span{border:1px solid #D7CFC5;}
+#tab span.on{color:#FFF;border:1px solid #9b4090;background:url(../img/dusk/tab.gif) 0 bottom;}
+#tab span.off{color:#333;border:1px solid #ba82be;background:url(../img/dusk/tab.gif) 0 -4px;}
+#tab span.hover{border:1px solid #a963ae;background:url(../img/dusk/tab.gif) 0 -39px;}
+
+#left{background:url(../img/dusk/left.jpg);border:none;}
+#left .left_top{background:url(../img/dusk/left_top.jpg) 0 top no-repeat;}
+#left .menu a{color:#000;}
+#left .menu a:hover{color:#666;}
+
+#content iframe{background:#fcf1fc;}

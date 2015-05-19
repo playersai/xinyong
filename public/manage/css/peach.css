@@ -1,0 +1,19 @@
+#top{background:#F9F5F4;}
+#top .top_left{background:url(../img/peach/top_left.jpg) no-repeat 94px 0;}
+#top .top_right{background:url(../img/peach/top_right.jpg) no-repeat right;}
+#top a{color:#222;}
+#top a:hover{color:#666;}
+
+#tab .tab_line{background:url(../img/peach/tab.gif) left top;}
+#tab span{border:1px solid #D7CFC5;}
+#tab span.on{color:#FFF;border:1px solid #946543;background:url(../img/peach/tab.gif) 0 bottom;}
+#tab span.off{color:#999;border:1px solid #BE8A65;background:url(../img/peach/tab.gif) 0 -4px;}
+#tab span.hover{background:url(../img/peach/tab.gif) 0 -39px;}
+
+#left{background:#F9F5F4;}
+#left .left_bottom{background:url(../img/peach/left_bottom.jpg) 0 bottom no-repeat;}
+#left .menu ul.main{border-top:1px solid #FFF;border-bottom:1px solid #EBE4DE;}
+#left .menu a{color:#222;border-top:1px solid #EBE4DE;border-bottom:1px solid #FFF;}
+#left .menu a:hover{background:#EAE3DD;}
+
+#content iframe{background:#F9F5F4;}
